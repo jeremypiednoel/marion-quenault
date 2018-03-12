@@ -1712,7 +1712,7 @@
 	}
 
 		p.major {
-			font-size: 1.25rem;
+			font-size: 1rem;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2698,7 +2698,7 @@
 
 	header p {
 		position: relative;
-		margin: -0.65rem 0 1.5rem 0;
+		margin: -0.65rem 0 1.0rem 0;
 		font-style: italic;
 	}
 
