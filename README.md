@@ -3,13 +3,6 @@ Marion Piednoël - Doula in Brooklyn, NY
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		Misc. Sass functions (@HugoGiraudel)
-		Skel (skel.io)
+* HTML template : [HTML UP - Story](https://html5up.net/story)
+* Images : [Unsplash](https://unsplash.com/)
+* Icons : [Font Awesome](https://fontawesome.com/)
