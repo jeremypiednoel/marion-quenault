@@ -8,6 +8,13 @@
 
 	.spotlight {
 
+		p {
+			margin: 0 0 _size(element-margin)/4 0;
+		}
+
+		blockquote {
+			margin: _size(element-margin)/2 0;
+		}
 		// Mixin.
 			@mixin transition-spotlight($event) {
 				$x: null;

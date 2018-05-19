@@ -12,15 +12,32 @@
 		}
 	}
 
-	header {
+	footer {
 		p {
 			position: relative;
 			margin: (_size(element-margin) * -0.325) 0 (_size(element-margin) * 0.75) 0;
 			font-style: italic;
+			font-size: 1rem;
+		}
+	}
+	header {
+
+		&.intro {
+			p {
+				margin: 0;
+				font-size: 1.375rem;
+
+				&:last-child {
+					padding : _size(element-margin) 0 _size(element-margin) 0;
+				}
+			}
+
 		}
 
-		h1 + p {
-			font-size: 1.375rem;
+		p {
+			position: relative;
+			margin: (_size(element-margin) * -0.325) 0 (_size(element-margin) * 0.75) 0;
+			font-style: italic;
 		}
 
 		h2 + p {
@@ -40,6 +57,11 @@
 
 	@mixin color-section($p: null) {
 		header {
+			p {
+				color: _palette($p, fg-light);
+			}
+		}
+		footer {
 			p {
 				color: _palette($p, fg-light);
 			}
